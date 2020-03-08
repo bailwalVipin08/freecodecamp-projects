@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="bundle.js" defer></script>
+  </head>
+  <body>
+    <header id="header">
+      <img src="./img/logo.png" type="svg" alt="" id="header-img" />
+      <nav id="nav-bar">
+        <ul id="nav-bar__list">
+          <li class="nav-bar__list--item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-bar__list--item">
+            <a href="#features" class="nav-link">Features</a>
+          </li>
+          <li class="nav-bar__list--item">
+            <a href="#pricing" class="nav-link">Pricing</a>
+          </li>
+          <li class="nav-bar__list--item">
+            <a href="#how-it-works" class="nav-link">How it works</a>
+          </li>
+          <li class="nav-bar__list--item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <h1 class="heading-primary">Host with the best</h1>
+        <p>
+          Get the freedom you deserve. Efficient, secure and reliable hosting
+          services.
+        </p>
+        <a class="btn-learn" href="#features">Learn More</a>
+      </section>
+
+      <section id="features">
+        <h2 class="heading-secondary">Many Good Reasons to Stick Around</h2>
+        <div class="feature-container">
+          <article class="feature">
+            <img src="img/customer.svg" class="feature-image" alt="customer" />
+            <h3 class="feature-description">3,857,000 Trusting Customers</h3>
+          </article>
+          <article class="feature">
+            <img src="img/database.svg" class="feature-image" alt="customer" />
+            <h3 class="feature-description">99.99% Uptime Guarantee</h3>
+          </article>
+          <article class="feature">
+            <img
+              src="img/cloud-computing.svg"
+              class="feature-image"
+              alt="customer"
+            />
+            <h3 class="feature-description">Lightning Fast CDN</h3>
+          </article>
+        </div>
+        <div class="feature-container">
+          <article class="feature">
+            <img src="img/security.svg" class="feature-image" alt="customer" />
+            <h3 class="feature-description">Timely Security Audits</h3>
+          </article>
+          <article class="feature">
+            <img
+              src="img/application.svg"
+              class="feature-image"
+              alt="customer"
+            />
+            <h3 class="feature-description">Managed Applications</h3>
+          </article>
+          <article class="feature">
+            <img
+              src="img/money-back.svg"
+              class="feature-image"
+              alt="customer"
+            />
+            <h3 class="feature-description">30 - Day Money Back Guarantee</h3>
+          </article>
+        </div>
+      </section>
+      <section id="pricing">
+        <h2 class="heading-secondary">Choose your plan</h2>
+        <div class="plans-container">
+          <article class="plan plan-basic">
+            <h1 class="plan__title">FREE</h1>
+            <h2 class="plan__price"><span>$0</span>/month</h2>
+            <h3>For small teams.</h3>
+            <ul class="plan__features">
+              <li class="plan__feature">1 Workspace</li>
+              <li class="plan__feature">Unlimited Traffic</li>
+              <li class="plan__feature">10GB Storage</li>
+              <li class="plan__feature">Basic Support</li>
+            </ul>
+            <div>
+              <button class="plan-btn">CHOOSE PLAN</button>
+            </div>
+          </article>
+          <article class="plan plan-plus">
+            <h1 class="plan__annotation">RECOMMENDED</h1>
+            <h1 class="plan__title">PLUS</h1>
+            <h2 class="plan__price"><span>$29</span>/month</h2>
+            <h3>For ambitious projects.</h3>
+            <ul class="plan__features">
+              <li class="plan__feature">5 Workspaces</li>
+              <li class="plan__feature">Unlimited Traffic</li>
+              <li class="plan__feature">100GB Storage</li>
+              <li class="plan__feature">Plus Support</li>
+            </ul>
+            <div>
+              <button class="plan-btn">CHOOSE PLAN</button>
+            </div>
+          </article>
+          <article class="plan plan-premium">
+            <h1 class="plan__title">PREMIUM</h1>
+            <h2 class="plan__price"><span>$99</span>/month</h2>
+            <h3>Your enterprise solution.</h3>
+            <ul class="plan__features">
+              <li class="plan__feature">10 Workspaces</li>
+              <li class="plan__feature">Unlimited Traffic</li>
+              <li class="plan__feature">Unlimited Storage</li>
+              <li class="plan__feature">Priority Support</li>
+            </ul>
+            <div>
+              <button class="plan-btn">CHOOSE PLAN</button>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section id="how-it-works">
+        <iframe
+          id="video"
+          height="315"
+          src="https://www.youtube.com/embed/nnt8DWGVwmE"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <section id="contact">
+        <h2 class="heading-secondary">Get in touch</h2>
+        <div class="form-container">
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <div class="form-group">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input type="submit" id="submit" value="Get Started" />
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <ul class="footer-nav">
+        <li class="footer-nav-link">
+          <a href="#" class="footer-link">Privacy Policy</a>
+        </li>
+        <li class="footer-nav-link">
+          <a href="#" class="footer-link">Terms & conditions</a>
+        </li>
+        <li class="footer-nav-link">
+          <a href="#" class="footer-link">FAQs</a>
+        </li>
+      </ul>
+      <p class="copyright-info">Copyright &copy 2020, Vipin Bailwal</p>
+    </footer>
+  </body>
+</html>
